@@ -43,4 +43,4 @@ function logger() {
 }
 // var a=new logger();
 // a.d("test");
-exports.Logger=new logger();
+module.exports=new logger();

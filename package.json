@@ -1,6 +1,6 @@
 {
   "name": "mark_logger",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "by mark",
   "main": "index.js",
   "scripts": {
