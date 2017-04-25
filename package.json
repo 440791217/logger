@@ -1,6 +1,6 @@
 {
   "name": "mark_logger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "by mark",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/440791217/logger/issues"
   },
-  "homepage": "https://github.com/440791217/logger#readme"
+  "homepage": "https://github.com/440791217/logger#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
 }

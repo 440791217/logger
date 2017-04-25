@@ -1,6 +1,9 @@
 /**
  * Created by mark on 2017/1/20.
  */
+var colors = require('colors/safe');
+
+
 function logger() {
     var debug=true;
 
@@ -11,12 +14,12 @@ function logger() {
 
     function e(msg) {
         if (debug)
-            console.error(msg);
+            console.error(colors.red(msg));
     }
 
     function i(msg) {
         if (debug)
-            console.info(msg);
+            console.info(colors.blue(msg));
     }
 
     function d(msg) {
